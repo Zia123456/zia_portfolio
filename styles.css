@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .nav {
   list-style-type: none;
   display: flex;
@@ -37,9 +38,10 @@ li {
   display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(41, 45, 38);
+  flex-direction: column;
 }
 
-.title #colored-text {
+#colored-text {
   color: rgb(91, 215, 132);
 }
 
@@ -56,13 +58,9 @@ li {
 .logos {
   background-color: chocolate;
 }
+
 .sotial-logo {
   list-style-type: none;
   display: flex;
   justify-content: center;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
 }
