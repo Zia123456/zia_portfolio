@@ -1,9 +1,3 @@
-.top-bar {
-  width: 375px;
-  height: 34px;
-  background-color: blue;
-}
-
 .container {
   width: 375px;
   height: 6715px;
@@ -13,41 +7,110 @@
   align-items: center;
 }
 
-#container {
+.top-bar {
+  width: 375px;
+  height: 92px;
+  background-color: rgb(218, 232, 117);
   display: flex;
   flex-direction: column;
 }
 
-.nav {
-  list-style-type: none;
+.status {
   display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 44px;
+  background-color: cyan;
+}
+
+#time-container {
+  width: 54px;
+  height: 21px;
+  margin-top: 13px;
+  margin-left: 21px;
+  margin-bottom: 12px;
+}
+
+#status-container {
+  width: 66px;
+  height: 11px;
+  margin-top: 17px;
+  margin-right: 15px;
+}
+
+.header {
+  display: flex;
+  width: 375px;
+  height: 48px;
   border: solid 1px green;
   justify-content: space-between;
 }
 
-li {
-  border: solid 1px black;
+.text-welcome {
+  width: 114px;
+  height: 48px;
+  margin-left: 12px;
+  align-content: center;
+  background-color: brown;
 }
 
-.title {
+.welcome {
+  width: 90px;
+  height: 28px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.humberger-icon-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 24px;
+}
+
+/* #humberger-icon {
+  width: 18px;
+  height: 12px;
+} */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 726px;
+  background-color: fuchsia;
+  align-items: center;
+}
+
+.primary-text {
   background-color: forestgreen;
+  display: flex;
+  flex-direction: column;
   width: 327px;
   height: 193px;
+  margin-top: 64px;
   text-align: center;
   font-size: 40px;
-  display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(41, 45, 38);
-  flex-direction: column;
 }
 
 #colored-text {
   color: rgb(91, 215, 132);
 }
 
-.description {
+.supporting-text {
   width: 327px;
   height: 164px;
+  margin-top: 58px;
   background-color: blueviolet;
   display: flex;
   text-align: center;
@@ -57,10 +120,35 @@ li {
 
 .logos {
   background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 20px;
+  margin-top: 62px;
+  justify-content: space-evenly;
 }
 
-.sotial-logo {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+
+.medium {
+  width: 20px;
+  height: 16px;
+}
+
+.github {
+  width: 18px;
+  height: 20px;
+}
+
+.angellist {
+  width: 14px;
+  height: 20px;
 }
