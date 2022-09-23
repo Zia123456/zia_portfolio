@@ -1,3 +1,9 @@
+/* style for body is temporary */
+body {
+  max-width: max-content;
+  margin: auto;
+}
+
 .container {
   width: 375px;
   height: 6715px;
@@ -125,12 +131,15 @@ a:link {
   width: 170px;
   height: 20px;
   margin-top: 62px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .twitter {
   width: 20px;
   height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
 
 .linkedin {
@@ -151,4 +160,41 @@ a:link {
 .angellist {
   width: 14px;
   height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  width: 327px;
+  height: 48px;
+  background-color: aqua;
+  margin-top: 48px;
+}
+
+.normal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dfe1e6;
+  border-radius: 50%;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: blue;
+}
+
+#down-larger-icon {
+  width: 14px;
+  height: 8px;
 }
