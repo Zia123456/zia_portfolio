@@ -1,10 +1,18 @@
-/* style for body is temporary */
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 body {
   max-width: max-content;
   margin: auto;
-  border: 20px solid black;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .container {
@@ -62,16 +70,19 @@ body {
   width: 90px;
   height: 28px;
   font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+a {
+  color: black;
+}
+
 a:link {
   text-decoration: none;
-  color: black;
 }
 
 .humberger-icon-container {
@@ -98,22 +109,25 @@ a:link {
   height: 193px;
   margin-top: 64px;
   text-align: center;
-  font-size: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
   color: rgb(41, 45, 38);
 }
 
 #colored-text {
   color: rgb(91, 215, 132);
+  margin-top: -75px;
 }
 
 .supporting-text {
   width: 327px;
   height: 164px;
-  margin-top: 58px;
+  margin-top: 110px;
   display: flex;
   text-align: center;
   font-size: 20px;
+  font-weight: 450;
+  color: rgb(40, 38, 38);
+  line-height: 28px;
   align-items: center;
 }
 
@@ -124,6 +138,10 @@ a:link {
   height: 20px;
   margin-top: 62px;
   justify-content: space-between;
+}
+
+ul {
+  list-style: none;
 }
 
 .twitter {
