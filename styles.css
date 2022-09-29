@@ -113,10 +113,9 @@ a:link {
 .logos {
   display: flex;
   flex-direction: row;
-  width: 170px;
-  height: 20px;
+  gap: 20px;
   margin-top: 62px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 ul {
@@ -956,6 +955,7 @@ ul {
   margin-top: 58px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 24px;
 }
 
@@ -979,19 +979,28 @@ ul {
   border: 1px solid #60c095;
 }
 
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 16px 15px 16px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 ::placeholder {
   color: #6b778c;
-  padding: 16px 15px 16px 15px;
-  font-size: 15px;
   line-height: 24px;
   font-weight: 400;
 }
 
-textarea::-webkit-input-placeholder {
+textarea {
+  width: 100%;
+  padding: 16px 15px 16px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
-  padding: 12px 12px 12px 12px;
   color: #091e42;
 }
 
