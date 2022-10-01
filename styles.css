@@ -1016,6 +1016,10 @@ textarea {
   color: #fff;
 }
 
+#get-in-touch:hover {
+  background-color: #0b8854;
+}
+
 .logos-1 {
   display: flex;
   flex-direction: row;
