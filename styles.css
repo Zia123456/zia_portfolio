@@ -13,7 +13,7 @@ html {
 body {
   max-width: max-content;
   margin: auto;
-  height: 100%;
+  height: 6715px;
   border: 1px solid black;
 }
 
@@ -945,38 +945,34 @@ ul {
   height: 330px;
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
   align-items: center;
+  justify-content: flex-start;
+  margin-top: 58px;
 }
 
 #form {
-  width: 100%;
-  height: 100%;
-  margin-top: 58px;
+  width: 327px;
+  height: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 24px;
+  margin-top: -7px;
 }
 
 #fullname {
-  width: 320px;
+  width: 327px;
   height: 48px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  margin-top: 0;
 }
 
 #email {
-  width: 320px;
+  width: 327px;
   height: 48px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-}
-
-#textarea {
-  width: 320px;
-  height: 114px;
-  border: 1px solid #60c095;
+  margin-top: 24px;
 }
 
 input[type="text"],
@@ -993,15 +989,18 @@ input[type="email"] {
   font-weight: 400;
 }
 
-textarea {
-  width: 100%;
+#textarea-text {
+  width: 327px;
+  height: 114px;
   padding: 16px 15px 16px 15px;
-  margin: 8px 0;
   box-sizing: border-box;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   color: #091e42;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  margin-top: 24px;
 }
 
 #get-in-touch {
@@ -1014,6 +1013,7 @@ textarea {
   line-height: 24px;
   font-weight: 500;
   color: #fff;
+  margin-top: 24px;
 }
 
 #get-in-touch:hover {
@@ -1028,6 +1028,7 @@ textarea {
   justify-content: space-between;
   align-self: center;
   margin-left: -30px;
+  margin-top: 44px;
 }
 
 .myemail-container {
@@ -1035,7 +1036,7 @@ textarea {
   flex-direction: column;
   width: 375px;
   height: 189px;
-  margin-top: 130px;
+  margin-top: -20px;
 }
 
 .my-email {
@@ -1053,5 +1054,5 @@ textarea {
 
 #shape {
   justify-content: flex-end;
-  margin-top: -20px;
+  margin-top: 230px;
 }
