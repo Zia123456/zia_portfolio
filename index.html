@@ -9,18 +9,18 @@
     <header class="container">
       <nav class="top-bar">
         <div class="header">
-          <nav class="text-welcome">
+          <div class="text-welcome">
             <p class="welcome">
               <a href="#">Welcome</a>
             </p>
-          </nav>
-          <nav class="humberger-icon-container">
+          </div>
+          <div class="humberger-icon-container">
             <img
               id="humberger-icon"
               src="images/Enabled.png"
               alt="not available"
             />
-          </nav>
+          </div>
         </div>
       </nav>
       <section class="headline">
@@ -353,53 +353,53 @@
         </div>
       </div> 
     </section>
-    <section class="contact-form-container">
+    <footer class="contact-form-container">
         <div class="description">
           <h6 class="description-text">I'm always interested in hearing about new projects,
              so if you'd like to chat please get in touch
           </h6>
         </div>
         <div class="contact-form">
-          <form action="#" id="form">
-            <input type="text" name="fullname" id="fullname" placeholder="Full name">
-            <input type="email" name="email" id="email" placeholder="Email address">
-            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter text here"></textarea>
+          <form action="https://formsubmit.co/m.ziabakhteyari12@gmail.com" id="form" method="post">
+            <input type="text" maxlength="30" name="fullname" id="fullname" placeholder="Full name" required>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+            <textarea name="textarea" maxlength="500" id="textarea-text" cols="30" rows="10" placeholder="Enter text here" required></textarea>
+            <span id="button-container">
+              <button type="submit" id="get-in-touch">Get in touch</button>
+            </span>
           </form>
-          <span id="button-container">
-            <button id="get-in-touch">Get in touch</button>
-          </span>
-          <ul class="logos-1">
-            <li class="twitter">
-              <img
-                src="images/twitter.png"
-                alt="not available"
-                id="twitter-icon"
-              />
-            </li>
-            <li class="linkedin">
-              <img
-                src="images/Linkedin icon.png"
-                alt="not available"
-                id="linkedin-icon"
-              />
-            </li>
-            <li class="medium">
-              <img src="images/medium.png" alt="not available" id="medium-icon" />
-            </li>
-            <li class="github">
-              <img src="images/github.png" alt="no available" id="github-icon" />
-            </li>
-            <li class="angellist">
-              <img src="images/angellist.png" alt="not available" id="vector-icon" />
-            </li>
-          </ul>
         </div>
+        <ul class="logos-1">
+          <li class="twitter">
+            <img
+              src="images/twitter.png"
+              alt="not available"
+              id="twitter-icon"
+            />
+          </li>
+          <li class="linkedin">
+            <img
+              src="images/Linkedin icon.png"
+              alt="not available"
+              id="linkedin-icon"
+            />
+          </li>
+          <li class="medium">
+            <img src="images/medium.png" alt="not available" id="medium-icon" />
+          </li>
+          <li class="github">
+            <img src="images/github.png" alt="no available" id="github-icon" />
+          </li>
+          <li class="angellist">
+            <img src="images/angellist.png" alt="not available" id="vector-icon" />
+          </li>
+        </ul>
         <div class="myemail-container">
           <div class="my-email">
             <p id="my-email">myemailhere@email.com</p>
           </div>  
         </div>
         <img src="images/Shape.png" alt="not available" id="shape">
-    </section>
+      </footer>
   </body>
 </html>
