@@ -2,6 +2,7 @@
 
 html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @supports (font-variation-settings: normal) {
@@ -1055,4 +1056,127 @@ input[type="email"] {
 #shape {
   justify-content: flex-end;
   margin-top: 230px;
+}
+
+/* style for side nav */
+
+.side-nav-container {
+  position: fixed;
+  display: none;
+  background-color: #36b37e;
+}
+
+.side-nav-container-clicked {
+  width: 375px;
+  height: 755px;
+  position: fixed;
+  display: block;
+  background-color: #36b37e;
+}
+
+.close-btn-container {
+  width: 375px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.close-btn-box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  background-color: darkorange;
+}
+
+.close-btn {
+  width: 14px;
+  height: 14px;
+}
+
+.side-nav-content {
+  width: 311px;
+  height: 184px;
+  margin-left: 12px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: aqua;
+}
+
+.portfolio-side-nav {
+  width: 351px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+  background-color: chartreuse;
+}
+
+.portfolio-text-side-nav {
+  width: 319px;
+  height: 40px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.portfolio-text {
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.about-side-nav {
+  width: 351px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+  background-color: chartreuse;
+}
+
+.about-text-side-nav {
+  width: 319px;
+  height: 40px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.about-text {
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.contact-side-nav {
+  width: 351px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+  background-color: chartreuse;
+}
+
+.contact-text-side-nav {
+  width: 319px;
+  height: 40px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.contact-text {
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
 }

@@ -23,7 +23,31 @@
           </div>
         </div>
       </nav>
-      <section class="headline">
+      <nav class="side-nav-container">
+        <div class="close-btn-container">
+          <div class="close-btn-box">
+            <img src="images/Icon.png" alt="close button" class="close-btn">
+          </div>
+        </div>
+        <ul class="side-nav-content">
+          <li class="portfolio-side-nav">
+            <a href="#headline" class="portfolio-text-side-nav">
+              <h2 class="portfolio-text">Portfolio</h2>
+            </a>
+          </li>
+          <li class="about-side-nav">
+            <a href="#about-me-container" class="about-text-side-nav">
+              <h2 class="about-text">About</h2>
+            </a>
+          </li>
+          <li class="contact-side-nav">
+            <a href="#contact-form-container" class="contact-text-side-nav">
+              <h2 class="contact-text">Contact</h2>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="headline" id="headline" style="background-color: lightblue;">
         <div class="primary-text">
           <span>
             <h1>Hey there. I'm Bakhteyari</h1>
@@ -245,7 +269,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me-container">
+    <section class="about-me-container" id="about-me-container">
       <div class="about-me">
         <img src="images/Mask Group.png" alt="not available" class="mask-group">
         <div class="grid-box-about-me">
@@ -353,7 +377,7 @@
         </div>
       </div> 
     </section>
-    <footer class="contact-form-container">
+    <footer class="contact-form-container" id="contact-form-container">
         <div class="description">
           <h6 class="description-text">I'm always interested in hearing about new projects,
              so if you'd like to chat please get in touch
@@ -401,5 +425,6 @@
         </div>
         <img src="images/Shape.png" alt="not available" id="shape">
       </footer>
+      <script src="script.js"></script>
   </body>
 </html>
