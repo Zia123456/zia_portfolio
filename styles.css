@@ -1,13 +1,13 @@
-@import url("https://rsms.me/inter/inter.css");
+@import url('https://rsms.me/inter/inter.css');
 
 html {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: "Inter var", sans-serif;
+    font-family: 'Inter var', sans-serif;
   }
 }
 
@@ -77,7 +77,7 @@ a:link {
   width: 375px;
   height: 726px;
   align-items: center;
-  background-image: url("images/header-illsutration-mobile@2x.png");
+  background-image: url('images/header-illsutration-mobile@2x.png');
   background-repeat: no-repeat;
   background-size: 375px 726px;
 }
@@ -976,8 +976,8 @@ ul {
   margin-top: 24px;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type='text'],
+input[type='email'] {
   width: 100%;
   padding: 16px 15px 16px 15px;
   margin: 8px 0;
@@ -1063,7 +1063,6 @@ input[type="email"] {
 .side-nav-container {
   position: fixed;
   display: none;
-  background-color: #36b37e;
 }
 
 .side-nav-container-clicked {
@@ -1071,7 +1070,11 @@ input[type="email"] {
   height: 755px;
   position: fixed;
   display: block;
-  background-color: #36b37e;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border: none;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 36px;
+  background-color: #fff;
 }
 
 .close-btn-container {
@@ -1080,7 +1083,6 @@ input[type="email"] {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: burlywood;
 }
 
 .close-btn-box {
@@ -1090,7 +1092,6 @@ input[type="email"] {
   justify-content: center;
   align-items: center;
   margin-right: 24px;
-  background-color: darkorange;
 }
 
 .close-btn {
@@ -1106,7 +1107,6 @@ input[type="email"] {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  background-color: aqua;
 }
 
 .portfolio-side-nav {
@@ -1115,7 +1115,6 @@ input[type="email"] {
   display: flex;
   align-items: center;
   margin-left: -40px;
-  background-color: chartreuse;
 }
 
 .portfolio-text-side-nav {
@@ -1124,7 +1123,6 @@ input[type="email"] {
   margin-left: 16px;
   display: flex;
   align-items: center;
-  background-color: blanchedalmond;
 }
 
 .portfolio-text {
@@ -1139,7 +1137,6 @@ input[type="email"] {
   display: flex;
   align-items: center;
   margin-left: -40px;
-  background-color: chartreuse;
 }
 
 .about-text-side-nav {
@@ -1148,7 +1145,6 @@ input[type="email"] {
   margin-left: 16px;
   display: flex;
   align-items: center;
-  background-color: blanchedalmond;
 }
 
 .about-text {
@@ -1163,7 +1159,6 @@ input[type="email"] {
   display: flex;
   align-items: center;
   margin-left: -40px;
-  background-color: chartreuse;
 }
 
 .contact-text-side-nav {
@@ -1172,7 +1167,6 @@ input[type="email"] {
   margin-left: 16px;
   display: flex;
   align-items: center;
-  background-color: blanchedalmond;
 }
 
 .contact-text {

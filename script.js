@@ -11,6 +11,7 @@ function displaySideNav() {
 }
 
 openSideNav.addEventListener('click', displaySideNav);
+
 function hideSideNav() {
   clickedCloseBtn.classList.remove('side-nav-container-clicked');
   clickedOnPortfolio.classList.remove('side-nav-container-clicked');
